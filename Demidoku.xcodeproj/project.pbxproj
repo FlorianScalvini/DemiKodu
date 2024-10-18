@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		178037F521D006FB00F8845C /* boom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 178037F421D006FB00F8845C /* boom.mp3 */; };
+		17A06EDD21C98174005BAA3B /* ViewControllerOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A06EDC21C98174005BAA3B /* ViewControllerOption.swift */; };
+		17A06EE221C981DB005BAA3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A06EE021C981DB005BAA3B /* Main.storyboard */; };
+		17A06EE421C98205005BAA3B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A06EE321C98205005BAA3B /* CollectionViewCell.swift */; };
+		17A06EE621C98217005BAA3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A06EE521C98217005BAA3B /* Assets.xcassets */; };
+		17A06EE821C9821E005BAA3B /* ViewControllerDemineur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A06EE721C9821E005BAA3B /* ViewControllerDemineur.swift */; };
+		17A06EEC21C98257005BAA3B /* ViewControllerSudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A06EEB21C98257005BAA3B /* ViewControllerSudoku.swift */; };
+		17A06EF021C9828B005BAA3B /* ViewControllerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A06EEF21C9828B005BAA3B /* ViewControllerMenu.swift */; };
+		17A06EF221C982B1005BAA3B /* Demineur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A06EF121C982B1005BAA3B /* Demineur.swift */; };
+		17A06EF421C982B4005BAA3B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A06EF321C982B4005BAA3B /* Game.swift */; };
+		17A06EF621C982B6005BAA3B /* Grille.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A06EF521C982B6005BAA3B /* Grille.swift */; };
+		17A06EF821C982B9005BAA3B /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A06EF721C982B9005BAA3B /* Region.swift */; };
+		17BAADFE21C97F3600F0C66D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BAADFD21C97F3600F0C66D /* AppDelegate.swift */; };
+		17BAAE0621C97F3600F0C66D /* Demidoku.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17BAAE0421C97F3600F0C66D /* Demidoku.xcdatamodeld */; };
+		17BAAE0B21C97F3700F0C66D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BAAE0921C97F3700F0C66D /* LaunchScreen.storyboard */; };
+		17BAAE1621C97F3800F0C66D /* DemidokuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BAAE1521C97F3800F0C66D /* DemidokuTests.swift */; };
+		17BAAE2121C97F3800F0C66D /* DemidokuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BAAE2021C97F3800F0C66D /* DemidokuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17BAAE1221C97F3800F0C66D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17BAADF221C97F3600F0C66D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17BAADF921C97F3600F0C66D;
+			remoteInfo = Demidoku;
+		};
+		17BAAE1D21C97F3800F0C66D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17BAADF221C97F3600F0C66D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17BAADF921C97F3600F0C66D;
+			remoteInfo = Demidoku;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		178037F421D006FB00F8845C /* boom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boom.mp3; sourceTree = "<group>"; };
+		17A06EDC21C98174005BAA3B /* ViewControllerOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerOption.swift; sourceTree = "<group>"; };
+		17A06EE121C981DB005BAA3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17A06EE321C98205005BAA3B /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		17A06EE521C98217005BAA3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17A06EE721C9821E005BAA3B /* ViewControllerDemineur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerDemineur.swift; sourceTree = "<group>"; };
+		17A06EEB21C98257005BAA3B /* ViewControllerSudoku.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerSudoku.swift; sourceTree = "<group>"; };
+		17A06EEF21C9828B005BAA3B /* ViewControllerMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMenu.swift; sourceTree = "<group>"; };
+		17A06EF121C982B1005BAA3B /* Demineur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demineur.swift; sourceTree = "<group>"; };
+		17A06EF321C982B4005BAA3B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		17A06EF521C982B6005BAA3B /* Grille.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grille.swift; sourceTree = "<group>"; };
+		17A06EF721C982B9005BAA3B /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		17BAADFA21C97F3600F0C66D /* Demidoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demidoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BAADFD21C97F3600F0C66D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17BAAE0521C97F3600F0C66D /* Demidoku.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Demidoku.xcdatamodel; sourceTree = "<group>"; };
+		17BAAE0A21C97F3700F0C66D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17BAAE0C21C97F3700F0C66D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17BAAE1121C97F3800F0C66D /* DemidokuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemidokuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BAAE1521C97F3800F0C66D /* DemidokuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemidokuTests.swift; sourceTree = "<group>"; };
+		17BAAE1721C97F3800F0C66D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17BAAE1C21C97F3800F0C66D /* DemidokuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemidokuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BAAE2021C97F3800F0C66D /* DemidokuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemidokuUITests.swift; sourceTree = "<group>"; };
+		17BAAE2221C97F3800F0C66D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17BAADF721C97F3600F0C66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BAAE0E21C97F3800F0C66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BAAE1921C97F3800F0C66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		171B85D921CC37C3008DA4E2 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				17A06EF721C982B9005BAA3B /* Region.swift */,
+				17A06EF521C982B6005BAA3B /* Grille.swift */,
+				17A06EF321C982B4005BAA3B /* Game.swift */,
+				17A06EF121C982B1005BAA3B /* Demineur.swift */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		171B85DA21CC3806008DA4E2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				17A06EEB21C98257005BAA3B /* ViewControllerSudoku.swift */,
+				17A06EE721C9821E005BAA3B /* ViewControllerDemineur.swift */,
+				17A06EDC21C98174005BAA3B /* ViewControllerOption.swift */,
+				17A06EEF21C9828B005BAA3B /* ViewControllerMenu.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		17BAADF121C97F3600F0C66D = {
+			isa = PBXGroup;
+			children = (
+				17BAADFC21C97F3600F0C66D /* Demidoku */,
+				17BAAE1421C97F3800F0C66D /* DemidokuTests */,
+				17BAAE1F21C97F3800F0C66D /* DemidokuUITests */,
+				17BAADFB21C97F3600F0C66D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17BAADFB21C97F3600F0C66D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17BAADFA21C97F3600F0C66D /* Demidoku.app */,
+				17BAAE1121C97F3800F0C66D /* DemidokuTests.xctest */,
+				17BAAE1C21C97F3800F0C66D /* DemidokuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17BAADFC21C97F3600F0C66D /* Demidoku */ = {
+			isa = PBXGroup;
+			children = (
+				171B85DA21CC3806008DA4E2 /* ViewController */,
+				171B85D921CC37C3008DA4E2 /* Object */,
+				17BAADFD21C97F3600F0C66D /* AppDelegate.swift */,
+				17A06EE321C98205005BAA3B /* CollectionViewCell.swift */,
+				17BAAE0921C97F3700F0C66D /* LaunchScreen.storyboard */,
+				17A06EE521C98217005BAA3B /* Assets.xcassets */,
+				17A06EE021C981DB005BAA3B /* Main.storyboard */,
+				17BAAE0421C97F3600F0C66D /* Demidoku.xcdatamodeld */,
+				17BAAE0C21C97F3700F0C66D /* Info.plist */,
+				178037F421D006FB00F8845C /* boom.mp3 */,
+			);
+			path = Demidoku;
+			sourceTree = "<group>";
+		};
+		17BAAE1421C97F3800F0C66D /* DemidokuTests */ = {
+			isa = PBXGroup;
+			children = (
+				17BAAE1521C97F3800F0C66D /* DemidokuTests.swift */,
+				17BAAE1721C97F3800F0C66D /* Info.plist */,
+			);
+			path = DemidokuTests;
+			sourceTree = "<group>";
+		};
+		17BAAE1F21C97F3800F0C66D /* DemidokuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17BAAE2021C97F3800F0C66D /* DemidokuUITests.swift */,
+				17BAAE2221C97F3800F0C66D /* Info.plist */,
+			);
+			path = DemidokuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17BAADF921C97F3600F0C66D /* Demidoku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17BAAE2521C97F3800F0C66D /* Build configuration list for PBXNativeTarget "Demidoku" */;
+			buildPhases = (
+				17BAADF621C97F3600F0C66D /* Sources */,
+				17BAADF721C97F3600F0C66D /* Frameworks */,
+				17BAADF821C97F3600F0C66D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demidoku;
+			productName = Demidoku;
+			productReference = 17BAADFA21C97F3600F0C66D /* Demidoku.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17BAAE1021C97F3800F0C66D /* DemidokuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17BAAE2821C97F3800F0C66D /* Build configuration list for PBXNativeTarget "DemidokuTests" */;
+			buildPhases = (
+				17BAAE0D21C97F3800F0C66D /* Sources */,
+				17BAAE0E21C97F3800F0C66D /* Frameworks */,
+				17BAAE0F21C97F3800F0C66D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17BAAE1321C97F3800F0C66D /* PBXTargetDependency */,
+			);
+			name = DemidokuTests;
+			productName = DemidokuTests;
+			productReference = 17BAAE1121C97F3800F0C66D /* DemidokuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17BAAE1B21C97F3800F0C66D /* DemidokuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17BAAE2B21C97F3800F0C66D /* Build configuration list for PBXNativeTarget "DemidokuUITests" */;
+			buildPhases = (
+				17BAAE1821C97F3800F0C66D /* Sources */,
+				17BAAE1921C97F3800F0C66D /* Frameworks */,
+				17BAAE1A21C97F3800F0C66D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17BAAE1E21C97F3800F0C66D /* PBXTargetDependency */,
+			);
+			name = DemidokuUITests;
+			productName = DemidokuUITests;
+			productReference = 17BAAE1C21C97F3800F0C66D /* DemidokuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17BAADF221C97F3600F0C66D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = FlorianSc;
+				TargetAttributes = {
+					17BAADF921C97F3600F0C66D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					17BAAE1021C97F3800F0C66D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 17BAADF921C97F3600F0C66D;
+					};
+					17BAAE1B21C97F3800F0C66D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 17BAADF921C97F3600F0C66D;
+					};
+				};
+			};
+			buildConfigurationList = 17BAADF521C97F3600F0C66D /* Build configuration list for PBXProject "Demidoku" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17BAADF121C97F3600F0C66D;
+			productRefGroup = 17BAADFB21C97F3600F0C66D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17BAADF921C97F3600F0C66D /* Demidoku */,
+				17BAAE1021C97F3800F0C66D /* DemidokuTests */,
+				17BAAE1B21C97F3800F0C66D /* DemidokuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17BAADF821C97F3600F0C66D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BAAE0B21C97F3700F0C66D /* LaunchScreen.storyboard in Resources */,
+				17A06EE621C98217005BAA3B /* Assets.xcassets in Resources */,
+				17A06EE221C981DB005BAA3B /* Main.storyboard in Resources */,
+				178037F521D006FB00F8845C /* boom.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BAAE0F21C97F3800F0C66D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BAAE1A21C97F3800F0C66D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17BAADF621C97F3600F0C66D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A06EF021C9828B005BAA3B /* ViewControllerMenu.swift in Sources */,
+				17A06EF421C982B4005BAA3B /* Game.swift in Sources */,
+				17A06EDD21C98174005BAA3B /* ViewControllerOption.swift in Sources */,
+				17A06EF221C982B1005BAA3B /* Demineur.swift in Sources */,
+				17A06EF621C982B6005BAA3B /* Grille.swift in Sources */,
+				17BAADFE21C97F3600F0C66D /* AppDelegate.swift in Sources */,
+				17A06EE821C9821E005BAA3B /* ViewControllerDemineur.swift in Sources */,
+				17A06EF821C982B9005BAA3B /* Region.swift in Sources */,
+				17A06EE421C98205005BAA3B /* CollectionViewCell.swift in Sources */,
+				17BAAE0621C97F3600F0C66D /* Demidoku.xcdatamodeld in Sources */,
+				17A06EEC21C98257005BAA3B /* ViewControllerSudoku.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BAAE0D21C97F3800F0C66D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BAAE1621C97F3800F0C66D /* DemidokuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BAAE1821C97F3800F0C66D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BAAE2121C97F3800F0C66D /* DemidokuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17BAAE1321C97F3800F0C66D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17BAADF921C97F3600F0C66D /* Demidoku */;
+			targetProxy = 17BAAE1221C97F3800F0C66D /* PBXContainerItemProxy */;
+		};
+		17BAAE1E21C97F3800F0C66D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17BAADF921C97F3600F0C66D /* Demidoku */;
+			targetProxy = 17BAAE1D21C97F3800F0C66D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17A06EE021C981DB005BAA3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17A06EE121C981DB005BAA3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17BAAE0921C97F3700F0C66D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17BAAE0A21C97F3700F0C66D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17BAAE2321C97F3800F0C66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17BAAE2421C97F3800F0C66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17BAAE2621C97F3800F0C66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 868CMUS6Q6;
+				INFOPLIST_FILE = Demidoku/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FlorianSc.swiftProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17BAAE2721C97F3800F0C66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 868CMUS6Q6;
+				INFOPLIST_FILE = Demidoku/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FlorianSc.swiftProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17BAAE2921C97F3800F0C66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 868CMUS6Q6;
+				INFOPLIST_FILE = DemidokuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FlorianScalvini.DemidokuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demidoku.app/Demidoku";
+			};
+			name = Debug;
+		};
+		17BAAE2A21C97F3800F0C66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 868CMUS6Q6;
+				INFOPLIST_FILE = DemidokuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FlorianScalvini.DemidokuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demidoku.app/Demidoku";
+			};
+			name = Release;
+		};
+		17BAAE2C21C97F3800F0C66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 868CMUS6Q6;
+				INFOPLIST_FILE = DemidokuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FlorianScalvini.DemidokuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Demidoku;
+			};
+			name = Debug;
+		};
+		17BAAE2D21C97F3800F0C66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 868CMUS6Q6;
+				INFOPLIST_FILE = DemidokuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FlorianScalvini.DemidokuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Demidoku;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17BAADF521C97F3600F0C66D /* Build configuration list for PBXProject "Demidoku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BAAE2321C97F3800F0C66D /* Debug */,
+				17BAAE2421C97F3800F0C66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17BAAE2521C97F3800F0C66D /* Build configuration list for PBXNativeTarget "Demidoku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BAAE2621C97F3800F0C66D /* Debug */,
+				17BAAE2721C97F3800F0C66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17BAAE2821C97F3800F0C66D /* Build configuration list for PBXNativeTarget "DemidokuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BAAE2921C97F3800F0C66D /* Debug */,
+				17BAAE2A21C97F3800F0C66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17BAAE2B21C97F3800F0C66D /* Build configuration list for PBXNativeTarget "DemidokuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BAAE2C21C97F3800F0C66D /* Debug */,
+				17BAAE2D21C97F3800F0C66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		17BAAE0421C97F3600F0C66D /* Demidoku.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				17BAAE0521C97F3600F0C66D /* Demidoku.xcdatamodel */,
+			);
+			currentVersion = 17BAAE0521C97F3600F0C66D /* Demidoku.xcdatamodel */;
+			path = Demidoku.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 17BAADF221C97F3600F0C66D /* Project object */;
+}
